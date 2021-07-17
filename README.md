@@ -5,4 +5,4 @@ Landing Page desenvolvinda para o lançamento do App Joga+, uma plataforma que v
 ## O Projeto
 Aplicação desenvolvida usando CMS Wordpress para gerênciamento do Conteúdo e front-end em html, sass e js.
 
-[https://www.jogamais.app/]link do projeto!
+[https://www.jogamais.app/] link do projeto!
