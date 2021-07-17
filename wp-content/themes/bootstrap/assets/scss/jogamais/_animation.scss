@@ -1,0 +1,158 @@
+.animation-prints{
+    position: relative;
+    top: 80px;
+    background-image: url("../images/telas/molde.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    img:nth-child(1){
+        z-index: 2;
+        opacity: 0;
+        animation: prints-1;
+        animation-duration: 8s;
+        animation-iteration-count: infinite;
+    }
+    img:nth-child(2){
+        z-index: 2;
+        opacity: 0;
+        animation: prints-2;
+        animation-duration: 8s;
+        animation-iteration-count: infinite;
+    }
+    img:nth-child(3){
+        z-index: 2;
+        opacity: 0;
+        animation: prints-3;
+        animation-duration: 8s;
+        animation-iteration-count: infinite;
+    }
+    img{
+        position: absolute;
+    }
+
+    span{
+        position: absolute;
+        z-index: 1;
+        width: 100%;
+        img{
+            opacity: 1!important;
+            position: relative;
+            animation: none !important;
+        }
+    }
+    
+}
+
+@keyframes prints-1 {
+    0% {
+        opacity: 0;
+    }
+    3% {
+        opacity: 1;
+    }
+    33% {
+        opacity: 1;
+    }
+    40% {
+        opacity: 0;
+    } 
+    100% {
+        opacity: 0;
+    }
+}
+
+
+@keyframes prints-2 {
+    0%{
+        opacity: 0;
+    }
+    33% {
+        opacity: 0;
+    }
+    40% {
+        opacity: 1;
+    }
+    60% {
+        opacity: 1;
+    }
+    70% {
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
+  }
+
+
+  @keyframes prints-3 {
+    0%{
+        opacity: 0;
+    }
+    60% {
+        opacity: 0;
+    }
+    70% {
+        opacity: 1;
+    }
+    93% {
+        opacity: 1;
+    }
+    97% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+  }
+
+
+
+  /*
+
+  @keyframes prints {
+    0% {
+        img:nth-child(1){opacity: 1;}
+        img:nth-child(2){opacity: 0;}
+        img:nth-child(3){opacity: 0;}
+    }
+    30% {
+        img:nth-child(1){opacity: 1;}
+        img:nth-child(2){opacity: 0;}
+        img:nth-child(3){opacity: 0;}
+    }
+
+
+    35% {
+        img:nth-child(1){opacity: 0;}
+        img:nth-child(2){opacity: 1;}
+        img:nth-child(3){opacity: 0;}
+    } 
+    62% {
+        img:nth-child(1){opacity: 0;}
+        img:nth-child(2){opacity: 1;}
+        img:nth-child(3){opacity: 0;}
+    }
+
+
+
+    66% {
+        img:nth-child(1){opacity: 0;}
+        img:nth-child(2){opacity: 0;}
+        img:nth-child(3){opacity: 1;}
+    }
+    95% {
+        img:nth-child(1){opacity: 0;}
+        img:nth-child(2){opacity: 0;}
+        img:nth-child(3){opacity: 1;}
+    }
+
+
+
+    100% {
+        img:nth-child(1){opacity: 1;}
+        img:nth-child(2){opacity: 0;}
+        img:nth-child(3){opacity: 0;}
+    }
+  }
+
+  */

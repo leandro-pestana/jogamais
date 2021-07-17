@@ -1,0 +1,58 @@
+
+//BANNER 
+/////////////////////////
+
+.banner-manifesto{
+    background-image: url("../images/bg-manifesto.png");
+    background-size: cover;
+    background-position: bottom;
+    background-color: $cinza-escuro;
+    text-align: center;
+    text-transform: uppercase;
+    color: $branco;
+    padding: 50px 0px;
+    h1{
+        font-size: 30px;
+        margin: 40px 0;
+        @media (max-width: 768px) {
+            font-size: 26px;
+        }
+    }
+    @media (max-width: 768px) {
+        background-image: url("../images/bg-manifesto-m.png");
+
+    }
+}
+
+//TUTORIAL
+//////////////////////////////////////////
+
+.manifesto{
+    background-color: $cinza-escuro;
+    text-align: left;
+    p{
+        color: #fff;
+        font-weight: normal;
+        padding: 10px 0px;
+        span{
+            font-weight: bold;
+        }
+    }
+}
+.pagina-conteudo{
+    h2, h3, h4, li{
+        color: #fff;
+    }
+}
+
+tr, td{
+    color: #ccc;
+    border: solid 1px #ccc;
+    td{
+        padding: 5px 10px;
+    }
+}
+
+ul{
+    padding: 20px 0;
+}

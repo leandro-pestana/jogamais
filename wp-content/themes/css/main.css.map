@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACAA,AACI,WADO,CACP,CAAC,CAAC,GAAG,AAAA,CACD,KAAK,CAAE,IAAI,CACd",
+    "sources": [
+        "../assets/scss/main.scss",
+        "../assets/scss/template/_home.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}

@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "ACAA,AACI,WADO,CACP,CAAC,CAAC,GAAG,AAAA,CACD,KAAK,CAAE,IAAI,CACX,MAAM,CAAE,IAAI,CACf,AAGL,AAAA,EAAE,CAAE,EAAE,CAAE,EAAE,AAAA,CACN,KAAK,CAAE,IAAI,CACd,ACTD,AAAA,GAAG,AAAA,CACC,OAAO,CAAE,QAAQ,CACpB",
+    "sources": [
+        "../faq/wp-content/themes/bootstrap/assets/scss/template.scss",
+        "../faq/wp-content/themes/bootstrap/assets/scss/template/_home.scss",
+        "../faq/wp-content/themes/bootstrap/assets/scss/template/_menu.scss"
+    ],
+    "names": [],
+    "file": "template.css"
+}

@@ -1,0 +1,50 @@
+html, body{
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5{
+    font-weight: bold;
+  }
+  p{
+      font-weight: normal;
+      line-height: 24px;
+  }
+
+  li{
+    list-style: none;
+  }
+  a{
+    text-decoration: none;
+    transition: 0.3s;
+    &:hover{
+      text-decoration: none;
+    }
+  }
+
+  section, footer{
+    overflow-x: hidden;
+  }
+
+  .button-jm{
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    width: fit-content;
+    &:hover{
+      cursor: pointer;
+    }
+  }
+
+  $branco: #fff;
+  $preto: #000;
+  $azul: #70ecf4;
+  $roxo: #7C1C93;
+  $cinza-escuro: #282828;
+  $cinza-claro:#676A71;
+  $verde:#15C844;
+  $vermelho: #E43A4C;
+  $laranja: #FF7A45;

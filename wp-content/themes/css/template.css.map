@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "ACAA,AACI,WADO,CACP,CAAC,CAAC,GAAG,AAAA,CACD,KAAK,CAAE,IAAI,CACX,MAAM,CAAE,IAAI,CACf,ACJL,AAAA,GAAG,AAAA,CACC,OAAO,CAAE,QAAQ,CACpB",
+    "sources": [
+        "../assets/scss/template.scss",
+        "../assets/scss/template/_home.scss",
+        "../assets/scss/template/_menu.scss"
+    ],
+    "names": [],
+    "file": "template.css"
+}

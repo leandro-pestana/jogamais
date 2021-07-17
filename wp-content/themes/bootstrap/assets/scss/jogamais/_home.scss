@@ -1,0 +1,379 @@
+
+//BANNER 
+/////////////////////////
+
+.banner{
+    height: 100%;
+    min-height: 750px;
+    background-image: url("../images/banner-home.jpg");
+    background-size: cover;
+    text-align: center;
+    text-transform: uppercase;
+    color: $branco;
+    h1{
+        font-size: 30px;
+        margin: 40px 0;
+        @media (max-width: 768px) {
+            font-size: 26px;
+        }
+    }
+    p{
+        font-size: 16px;
+    }
+    .btns-banner{
+        display: flex;
+        justify-content: center;
+        @media (max-width: 768px) {
+            display: flex;
+            margin: 0px 10%;
+            a img{
+                width: 100%;
+                padding-right: 5px;            
+            }
+        }
+    }
+    .button-jm{
+        background-color: $azul;
+        color: $preto;
+        width: auto;
+        @media (max-width: 768px) {
+            width: 100%;
+        }
+    }
+}
+
+//TUTORIAL
+//////////////////////////////////////////
+
+.tutorial{
+    padding-top: 80px;
+    background-image: url("../images/bg-azul.png");
+    background-repeat: repeat-x;
+    background-position: bottom;
+    h2{
+        text-transform: uppercase;
+    }
+    
+    .tutorial-etapas{
+        padding: 0 !important;
+    }
+    .etapa{
+        background-color: $azul;
+        border-radius: 10px;
+        padding: 0px;
+        width: 60%;
+        text-align: center;
+        margin-bottom: -170px;
+        height: 300px;
+        p{
+            padding: 40px 25px 10px 25px;
+            text-transform: uppercase;
+            font-size: 18px;
+        }
+    }
+    .linha1{
+        float: right;
+        width: 100% !important;
+    }
+}
+
+.owl-nav{
+    display: none;
+}
+
+.owl-dots{
+    width: 50%;
+    margin: 20px 25%;
+    display: flex;
+    justify-content: center;
+    .owl-dot{
+        width: 15%;
+        height: 6px;
+        border-radius: 10px;
+        background-color: $branco !important;
+        margin: 0px 5%;
+    }
+    .active{
+        background-color: $cinza-escuro !important;
+        border: none !important;
+        -webkit-tap-highlight-color:$cinza-escuro !important;
+    }
+}
+
+
+.tutorial-02{
+    background-color: $azul;
+    padding-bottom: 100px;
+    h2, h3{
+        text-transform: uppercase;
+    }
+    h3, p{
+        font-size: 20px;
+    }
+    .tutorial-etapas-02{
+        padding: 80px 35px;
+        text-align: center;
+        background-color: #fff;
+        border-radius: 30px;
+        height: 350px;
+        margin-bottom: -150px;
+        @media (max-width: 768px) {
+            height: 450px;
+            padding: 55px 35px;
+            margin-bottom: -170px;
+        }
+    }
+}
+
+.feminino{
+    background-color: $preto;
+    padding: 100px 0px;
+    color: $branco;
+    background-image: url("../images/bg-feminino.png");
+    background-size: cover;
+    h3{
+        text-transform: uppercase;
+    }
+    @media (max-width: 768px) {
+        text-align: center;
+        background-image: url("../images/bg-feminino-m.jpg");
+        background-position: center bottom;
+        background-repeat: no-repeat;
+    }
+    .btns-banner{
+        display: flex;
+        justify-content: center;
+        a img{
+            padding: 5px;
+            width: 100%;
+        }
+
+    }
+    .button-jm{
+        background-color: $azul;
+        font-size: 14px;
+        color: $cinza-escuro;
+        &:hover{
+            background-color: $branco;
+        }
+        @media (max-width: 768px) {
+            margin-top: 200px;
+            width: auto;
+        }
+    }
+}
+
+//SOBRE - FEATURES
+//////////////////////////////////////////
+
+.sobre{
+    background-image: url("../images/bg-sobre.png");
+    background-size: cover;
+    padding: 80px 0px 120px 0px;
+    p{
+        color: $branco;
+    }
+    .button-jm{
+        background-color: $branco;
+        font-size: 14px;
+        color: $cinza-escuro;
+        &:hover{
+            background-color: $azul;
+        }
+        @media (max-width: 768px) {
+            width: 100%;
+        }
+    }
+    .logo-sobre{
+        width: 50%;
+        @media (max-width: 768px) {
+            width: 100%;
+        }
+    }
+    
+    ul{
+        margin: 40px 0px 0px 0px;
+        padding: 0;
+    }
+    ul li{
+        list-style: none;
+        color: $azul;
+        text-transform: uppercase;
+        font-size: 15px;
+        padding: 18px 0px;
+        font-weight: bold;
+        border-top:solid 1px #666 ;
+        cursor: pointer;
+        &:hover{
+            color: $branco;
+        }
+        &:first-child{
+            border: none;
+        }
+        img{
+            padding-right: 10px;
+        }
+    }
+    @media (max-width: 768px) {
+        .intro-center-text{
+            text-align: center;
+        }
+    }
+  
+}
+
+.lojas{
+    background: $azul;
+    border-radius: 25px;
+    padding: 60px 0;
+    p{ 
+        color:$preto !important;
+    }
+    .botoes-lojas{
+        img{
+            margin: 5px 0px;
+        }
+        @media (max-width: 768px) {
+            img{
+                width: 100%;
+            }
+        }
+    }
+    .botoes-cadastro{
+        font-size: 24px;
+        text-transform: uppercase;
+        font-weight: bold;
+        background-color: #fff;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-height: 80px;
+        &:hover{
+            cursor: pointer;
+        }
+
+    }
+}
+
+//PUBLICIDADE
+//////////////////////////////////////////
+.publi{
+    .owl-dots{
+        margin: 20px 25% -20px 25%;
+        .owl-dot{
+            width: 10px;
+            height: 6px;
+            border-radius: 10px;
+            background-color: $azul !important;
+            margin: 0px 0 0px 2%;
+        }
+        .active{
+            background-color: $cinza-escuro !important;
+            border: none !important;
+            -webkit-tap-highlight-color:$cinza-escuro !important;
+        }
+    }
+}
+
+//FOOTER
+//////////////////////////////////////////
+
+.rodape{
+    padding: 100px 0px;
+    background-color: $cinza-escuro;
+    .redes-sociais{
+        margin: 0;
+        padding: 15px 0 0 0;
+        li{
+            float: left;
+            img{
+                width: 80px;
+                padding: 0px 20px;
+            }
+        }
+    }
+    a{
+        color: $branco;
+        font-size: 14px;
+    }
+    @media (max-width: 768px) {
+        div{
+            margin: 20px 0px;
+        }
+        ul{
+            padding: 0;
+        }
+        ul li{
+            text-align: center;
+            font-size: 16px;
+            padding: 10px 0px;
+        }
+    }
+}
+
+.box-features{
+    display: none;
+    width: 80%;
+    height: auto;
+    background-color: $cinza-escuro;
+    margin: 5% 10% ;
+    border-radius: 25px;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    box-shadow: 0px 0px 100px $preto;
+    padding: 100px 0px;
+    overflow-y: auto;
+    h3{
+        color: $azul;
+    }
+    p{
+        margin: 50px 0px;
+        text-transform: none;
+    }
+    .button-jm{
+        background-color: $azul;
+        font-size: 14px;
+        color: $cinza-escuro;
+        &:hover{
+            background-color: $branco;
+        }
+    }
+    span{
+        position: absolute;
+        top: 15px;
+        right: 25px;
+        display: none;
+    }
+
+    @media (max-width: 768px) {
+        width: 90%;
+        max-height: 95%;
+        margin: 5%;
+        padding: 40px 0px;
+        span{
+            display: block;
+        }
+        p{
+            margin: 20px 0px;
+        }
+        .tela-feature{
+            width: 100%;
+            padding: 0;
+        }
+    }
+}
+
+#cookieBanner {
+    position: fixed;
+    z-index: 99999;
+    background-color: #fff;
+    padding: 40px 60px;
+    width: 95%;
+    left: 2.5%;
+    bottom: 20px;
+    box-shadow: 0px 0px 44px #000;
+    border-radius: 10px;
+}
